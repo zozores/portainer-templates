@@ -10,7 +10,7 @@
       "logo": "https://mediadepot.github.io/templates/img/baserow.png",
       "image": "baserow/baserow",
       "categories": ["Downloaders", "Tools"],
-      "ports": ["80/tcp"],
+      "ports": ["8180:80/tcp"],
       "volumes": [
         {
           "container": "/baserow/data",
